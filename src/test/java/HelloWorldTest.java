@@ -8,9 +8,9 @@ import org.junit.Test;
 public class HelloWorldTest {
 
     @Test
-    public void test1(){
+    public void testHelloWorld(){
         String str = "Hello World application testing";
         Assert.assertEquals("Hello World application testing", str);
-        Assert.assertEquals(HelloWorld.getHelloWorld(), "Hello World");
+        Assert.assertEquals(HelloWorld.getHelloWorld(), "Hello Worl");
     }
 }

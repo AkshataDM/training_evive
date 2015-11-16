@@ -19,6 +19,8 @@ public class RectanglePlus implements Relatable  {
         return width * height;
     }
 
+    public int getPerimeter() { return 2*(width+height); }
+
     public int isLargerThan(Relatable other) {
         RectanglePlus otherRect
                 = (RectanglePlus)other;
